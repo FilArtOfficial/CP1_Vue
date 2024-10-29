@@ -10,7 +10,7 @@ export default {
   methods: {
     handler(event) {
       this.addNewTodo(event.target.value);
-      event.target.value = ''; // Очистка инпута после добавления задачи
+      event.target.value = '';
     },
   },
 };
